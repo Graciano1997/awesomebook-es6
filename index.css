@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
+
+* {
+  font-family: 'Lato', sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#add {
+  border: 3px solid black;
+  background-color: white;
+  box-shadow: 3px 5px;
+  width: 3rem;
+  align-self: flex-end;
+}
+
+.logo a {
+  text-decoration: none;
+  color: black;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  border: 3px solid black;
+  width: 90%;
+  height: 3rem;
+  align-items: center;
+}
+
+#date {
+  font-size: small;
+  align-self: flex-end;
+  padding-right: 3vw;
+  text-align: end;
+  margin-right: 2%;
+}
+
+.navbar-container div {
+  padding-left: 15px;
+}
+
+.list-nav {
+  display: flex;
+}
+
+.list-nav li {
+  border-right: 2px solid black;
+  padding-right: 15px;
+  padding-left: 15px;
+  list-style-type: none;
+  color: black;
+}
+
+.list-nav li a {
+  text-decoration: none;
+  color: black;
+  font-size: 13px;
+
+  @media (max-width: 380px) {
+    font-size: 9px;
+    font-weight: bold;
+  }
+}
+
+#contact-li {
+  border-right: none;
+}
+
+#h1 {
+  text-align: center;
+}
+
+.script {
+  display: none;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10vh;
+  width: 100%;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 1rem;
+}
+
+#form button {
+  width: 25%;
+  align-self: end;
+  border: 2px solid black;
+  background-color: white;
+  box-shadow: 3px 5px;
+}
+
+.list-display {
+  display: flex;
+  border: 2px solid black;
+  flex-direction: column;
+  width: 90%;
+  overflow-y: scroll;
+  height: 50vh;
+}
+
+.card-book {
+  display: flex;
+  flex-direction: row;
+  margin-top: 0.5%;
+  margin-bottom: 0.2%;
+  align-items: center;
+  justify-content: space-between;
+  min-width: 100%;
+}
+
+.bookDescription {
+  padding-left: 2%;
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.spanSpace {
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+.alt {
+  background-color: #e0dcdcd0;
+}
+
+.card-book hr {
+  display: none;
+}
+
+.remove-button {
+  margin-right: 10px;
+  border: 2px solid black;
+  box-shadow: 3px 5px;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  margin-left: 10px;
+}
+
+.black-line {
+  width: 25vw;
+  height: 3px;
+  background-color: black;
+  margin-top: 50px;
+}
+
+#titleBook {
+  border: 2px solid black;
+  color: black;
+  width: 300px;
+  height: 30px;
+}
+
+.title {
+  padding-left: 1%;
+}
+
+#authorBook {
+  border: 2px solid black;
+  color: black;
+  height: 30px;
+}
+
+.footer {
+  position: fixed;
+  bottom: 1%;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-container {
+  border: 3px solid black;
+  width: 100%;
+}
+
+.footer-container p {
+  padding-left: 15px;
+}
+
+.hide {
+  display: none;
+}
