@@ -61,7 +61,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://graciano1997.github.io/awesome-books/)
+- [Live Demo Link](https://graciano1997.github.io/awesomebook-es6/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -89,7 +89,7 @@ To setup and install this project, follow the below steps:
 - Clone this project by the command:
 
 ```
-$ git clone $ git clone https://github.com/Graciano1997/awesome-books.git
+$ git clone $ git clone https://github.com/Graciano1997/awesomebook-es6.git
 ```
 
 - Then switch to the project folder by the bellow query:
@@ -134,7 +134,7 @@ To run the project:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/Graciano1997/awesome-books/issues).
+Feel free to check the [issues page](https://github.com/Graciano1997/awesomebook-es6/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
