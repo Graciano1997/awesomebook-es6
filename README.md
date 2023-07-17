@@ -7,7 +7,7 @@
 # 📗 Table of Contents
 
 - [� Table of Contents](#-table-of-contents)
-- [📖 \[Portfolio\] ](#-portfolio-)
+- [📖 AwesomeBooks-ES6 ](#-AwesomeBooks-ES6)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
@@ -26,7 +26,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Portfolio] <a name="about-project"></a>
+# 📖 [AwesomeBooks-ES6] <a name="about-project"> Awesome books: with ES6</a>
 
 **[Awesome Books - with ES6]** is the fourth project in the Module 2. In this project I completed again the Awesome Book but using ES6.
 
@@ -89,7 +89,7 @@ To setup and install this project, follow the below steps:
 - Clone this project by the command:
 
 ```
-$ git clone $ git clone https://github.com/Graciano1997/awesomebook-es6.git
+$ git clone https://github.com/Graciano1997/awesomebook-es6.git
 ```
 
 - Then switch to the project folder by the bellow query:

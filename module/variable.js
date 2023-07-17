@@ -4,6 +4,7 @@ const titleInput = document.querySelector('#titleBook');
 const listLink = document.querySelector('#list');
 const contactLink = document.querySelector('#contact');
 const addLink = document.querySelector('#add-new');
+const formState = document.querySelector('.stateForm');
 const h1 = document.querySelector('#h1');
 const date = document.getElementById('date');
 
@@ -16,4 +17,5 @@ export {
   addLink,
   h1,
   date,
+  formState,
 };

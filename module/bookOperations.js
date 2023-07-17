@@ -87,10 +87,37 @@ const addBookListener = () => {
   });
 };
 
+const formValidator = () => {
+  variable.titleInput.addEventListener('keyup', () => {
+    if (variable.authorInput.value.length !== 0 && variable.titleInput.value.length !== 0) {
+      variable.formState.classList.remove('error');
+      variable.formState.classList.add('success');
+      variable.formState.textContent = 'Good!';
+    } else {
+      variable.formState.classList.remove('success');
+      variable.formState.classList.toggle('error');
+      variable.formState.textContent = 'Can not have empty field!';
+    }
+  });
+
+  variable.authorInput.addEventListener('keyup', () => {
+    if (variable.authorInput.value.length !== 0 && variable.titleInput.value.length !== 0) {
+      variable.formState.classList.remove('error');
+      variable.formState.classList.add('success');
+      variable.formState.textContent = 'Good!';
+    } else {
+      variable.formState.classList.remove('success');
+      variable.formState.classList.toggle('error');
+      variable.formState.textContent = 'Can not have empty field!';
+    }
+  });
+};
+
 export {
   addBookListener,
   deleteBookListener,
   deleteBook,
   setBook,
   displayBook,
+  formValidator,
 };
