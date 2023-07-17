@@ -26,9 +26,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [AwesomeBooks-ES6] <a name="about-project"> Awesome books: with ES6</a>
+# 📖 [AwesomeBooks-ES6] <a name="about-project"></a>
 
-**[Awesome Books - with ES6]** is the fourth project in the Module 2. In this project I completed again the Awesome Book but using ES6.
+**Awesome Books - with ES6** is the fourth project in the Module 2. In this project I completed again the Awesome Book but using ES6.
 
 ## 🛠 Built With <a name="built-with"></a>
 
