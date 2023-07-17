@@ -1,9 +1,9 @@
 import * as variable from './variable.js';
-//import { DateTime } from '../node_modules/luxon/src/luxon.js';
+import { DateTime } from './luxon.js';
 
-// const timeFunction = () => {
-//   variable.date.textContent = DateTime.now().toFormat('LLL dd yyyy HH:mm:ss');
-// };
+const timeFunction = () => {
+  variable.date.textContent = DateTime.now().toFormat('LLL dd yyyy HH:mm:ss');
+};
 
 const navBarListener = () => {
   variable.addLink.addEventListener('click', () => {
@@ -37,4 +37,4 @@ const navBarListener = () => {
   });
 };
 
-export { navBarListener };
+export { navBarListener, timeFunction };
