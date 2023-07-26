@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./index.css">
+  <title>Awasome Books</title>
+</head>
+
+<body class="container">
+  <header>
+    <div class="navbar-container">
+      <div>
+        <h2 class="logo"> <a href="index.html">Awesome Books</a></h2>
+      </div>
+      <nav>
+        <ul class="list-nav">
+          <li> <a href="#display-area" id="list">List</a></li>
+          <li> <a href="#form-area" id="add-new">Add New</a></li>
+          <li id="contact-li"> <a href="#contact-info-area" id="contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+    <p id="date"> </p>
+  </header>
+
+  <main class="main">
+    <h1 id="h1">Add a new book</h1>
+
+    <div class="list-display hide" id="display-area">
+      <!-- every items  -->
+    </div>
+
+    <form action="" class="form" id="form-area">
+      <input type="text" name="author" id="authorBook" placeholder="Author of the Book" required>
+      <input type="text" name="title" id="titleBook" placeholder="Title of the Book" required>
+      <button type="button" class="btnAdd" id="add">Add</button>
+      <p class="stateForm"></p>
+    </form>
+    <section class="section-contact-info hide" id="contact-info">
+      <p>Do have any questions or just want to say "Hello"?</p>
+      <p>You can reach out to us!</p>
+      <ul id="list-contact">
+        <li>Our e-mail: gracianomanuelhenrique@mail.com</li>
+        <li>Our phone number: 004354375754</li>
+        <li>Our address: Streetname 22, 84503 City, EUA</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-container">
+      <p>Copyright of the Graciano Henrique © 2023</p>
+    </div>
+  </footer>
+  <script type="module" src="./index.js">
+
+  </script>
+</body>
+
+</html>
